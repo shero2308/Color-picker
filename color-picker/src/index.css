@@ -1,0 +1,38 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(0, 0%, 20%);
+  color: aliceblue;
+}
+.color-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  margin: 20px;
+  font-size: 3rem;
+}
+.color-display{
+  display: flex;
+  height: 500px;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 20px solid #ffffffe3;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  transition: 0.25s ease;
+}
+label{
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+input[type="color"] {
+  height: 50px;
+  width: 100px;
+  padding: 5px;
+  border: solid 1px #ffffffe3;
+  border-radius: 5px;
+}
